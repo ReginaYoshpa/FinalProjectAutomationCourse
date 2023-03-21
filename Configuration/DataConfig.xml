@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+
+    <!--PlatformName>desktop</PlatformName-->
+
+    <!--Timeout -->
+    <Timeout>10</Timeout>
+
+    <!--Authorization -->
+    <Username>admin</Username>
+    <Password>admin</Password>
+
+
+    <!--Web -->
+    <BrowserName>chrome</BrowserName>
+    <url>https://demo.nopcommerce.com/</url>
+    <ImageRepo>C://Automation//FinalProject//ImageRepository//</ImageRepo>
+
+    <!--Data Driven Testing-->
+    <DDTFile>./DDTFiles/users.csv</DDTFile>
+
+    <!--Mobile-->
+    <UDID>2cce9c4b</UDID>
+    <AppPackage>com.financial.calculator</AppPackage>
+    <AppActivity>.FinancialCalculators</AppActivity>
+    <AppiumServer>http://localhost:4723/wd/hub</AppiumServer>
+
+    <!--API-->
+    <url_API>http://localhost:3000</url_API>
+
+    <!--Electron-->
+    <ElectronDriverPath>./Drivers/electrondriver.exe</ElectronDriverPath>
+    <ElectronAppPath>C:/Users/mishy/AppData/Local/Programs/todolist/Todolist.exe</ElectronAppPath>
+
+    <!--Desktop-->
+    <CalculatorApp>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</CalculatorApp>
+    <AppiumServerDesktop>http://127.0.0.1:4723</AppiumServerDesktop>
+
+    <!--DB-->
+    <DBURL>jdbc:mysql://remotemysql.com:3306/sql11590804</DBURL>
+    <DBUsername>sql11590804</DBUsername>
+    <DBPassword>5IH1IWia6Q</DBPassword>
+
+
+</Environment>
