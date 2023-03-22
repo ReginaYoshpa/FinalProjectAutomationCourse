@@ -6,6 +6,7 @@ The project contains a number of classes, including Page Objects Design Pattern,
 failure mechanism and external files. 
 
 The applications used in this project:
+
 NopCommerce Demo Web Page- web based application
 Grafana API- web API
 ToDo List- electron application
@@ -13,6 +14,7 @@ Windows calculator- desktop application
 Loan calculator- mobile application
 
 Tools used in this project:
+
 TestNG- testing framework
 Jenkins- used for test execution 
 Allure Reports- reporting system
@@ -21,9 +23,8 @@ Rest Assured- for API testing
 Sikuli- used visual testing
 
 Known Issues:
-The NopCommerce Demo Web Application "forgets" previously created username and password after a few login attempts. Therefore, try and catch statements were used to check
-if login credentials are saved. At first, login will be attempted by creating a new user. If the user already exists, another attempt will take place with prespecified login
-credentials.
+
+The NopCommerce Demo Web Application "forgets" previously created username and password after a few login attempts. Therefore, try and catch statements were used to check if login credentials are saved. At first, login will be attempted by creating a new user. If the user already exists, another attempt will take place with prespecified login credentials.
 
 The NopCommerce test that uses Sikuli to varify logo image fails periodically. Possibly when the mouse moves, the test fails. 
 
